@@ -90,9 +90,12 @@ body {
 }
 
 .projects-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 10px;
+     width: 60%;
+     margin: auto;
 }
 
 
